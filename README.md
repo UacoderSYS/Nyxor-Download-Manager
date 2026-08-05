@@ -8,45 +8,49 @@
 
 **Nyxor Download Manager** is a high-concurrency desktop executive engineered to push network bandwidth to its absolute limits. Built on a hybrid **.NET and Rust** architecture, Nyxor discards legacy download mechanics in favor of aggressive multi-threading, dynamic segmentation, and deep browser integration. 
 
-This tool is built strictly for power users who demand speed, stability, and unrestricted media extraction.
+This tool is strictly compiled for power users demanding raw speed and unrestricted media extraction.
 
 ---
 
-## ⚡ Under the Hood: Pure Performance
+## ⚡ Under the Hood: Core Architecture
 
-Compiled exclusively for **64-bit (x64)** systems, Nyxor bypasses legacy memory constraints to effortlessly handle massive multi-gigabyte file streams and CPU-intensive media multiplexing without system bloat.
+Compiled exclusively for **64-bit (x64)** systems, Nyxor is structured to bypass legacy memory constraints, handling massive multi-gigabyte file streams and CPU-intensive media multiplexing without system bloat.
 
-* **Hybrid Engine (.NET + Rust):** Merges the rapid deployment ecosystem of .NET with the memory-safe, low-latency execution of Rust for heavy I/O operations and core network packet handling.
-* **Aggressive Concurrency:** Dynamically splits files into parallel streams with automated connection recovery, ensuring zero data loss during unstable network conditions.
-* **Native Manifest V3 Integration:** Ships with a lightweight, highly secure JavaScript Manifest V3 browser extension. It intercepts traffic, sniffs complex media streams, and communicates directly with the desktop client via secure native messaging.
+* **Hybrid Engine (.NET + Rust):** Combines the rapid deployment ecosystem of .NET with the memory-safe, low-latency execution of Rust for heavy I/O operations and low-level network packet handling.
+* **Aggressive Concurrency:** Dynamically splits payloads into parallel streams with automated connection recovery, enforcing zero data loss during unstable network conditions.
+* **Native Manifest V3 Integration:** Ships with a highly secure JavaScript Manifest V3 browser extension. It intercepts traffic, sniffs raw media streams, and communicates directly with the desktop client via encrypted native messaging.
 
-## 📡 Real-Time Live Stream Interception
+## 📡 Advanced Decryption & Protocol Bypassing
 
-Standard file downloading is easy; Nyxor excels in complex, fragmented media environments. The core engine is highly optimized to capture, buffer, and compile live broadcasts in absolute real-time.
+Standard file downloading is trivial; Nyxor is engineered specifically for complex, fragmented, and heavily restricted media environments. The core engine is optimized to capture, decrypt, and compile live broadcasts on the fly.
 
-* **Dynamic Protocol Handling:** Native interception capabilities for M3U8, HLS, DASH, and encrypted AES streams.
-* **Platform Dominance:** Engineered to seamlessly latch onto and extract live video feeds from major dynamic platforms like **Twitch, Kick, TikTok, and YouTube**, capturing data packet-by-packet exactly as it is broadcasted.
-* **On-the-Fly Muxing:** Automatically merges detached video and audio layers during the download phase, eliminating heavy post-processing delays.
+* **AES & DRM Decryption:** Features a real-time decryption core capable of handling AES-128/256 protected M3U8 and DASH manifests, instantly resolving and assembling fragmented video chunks.
+* **Complex Bypassing Logic:** Built-in token extraction and header spoofing algorithms designed to break through geo-blocks, request-rate limits, and anti-scraping firewalls on strict platforms (including FB, IG, Twitch, and custom CDN nodes).
+* **On-the-Fly Muxing:** Automatically merges detached video and audio streams synchronously during the download phase, eliminating post-processing latency.
 
-## 🎨 Zero WinForms Clutter: The GDI+ Fluent Dark UI
+## 🎨 Zero WinForms Clutter: Pure GDI+ UI
 
-We threw out the default Windows controls. Nyxor’s interface is a masterclass in custom UI engineering, drawn entirely from scratch using a highly optimized, double-buffered **GDI+** rendering engine.
+We discarded default Windows controls. Nyxor’s interface is a precision-engineered frontend, rendered entirely from scratch using a double-buffered **GDI+** engine.
 
-* **Executive Aesthetics:** Built on a strict 8/16px spatial grid, ensuring absolute proportion and structural harmony.
-* **Fluent Dark Identity:** Features a rich `#121212` base layered with `#1E1E1E` surfaces, accented by precision 8px rounded corners and a subtle 1px inner-glow.
-* **Silky Smooth:** 100% flicker-free, high-DPI aware, and fully anti-aliased typography that feels native, highly responsive, and incredibly premium.
+* **Executive Aesthetics:** Built on a strict 8/16px spatial grid, enforcing absolute proportion and structural harmony across all elements.
+* **Fluent Dark Identity:** Driven by a `#121212` base layered with `#1E1E1E` surfaces, accented by precision 8px rounded corners and a strict 1px inner-glow for depth.
+* **High-Performance Rendering:** 100% flicker-free, high-DPI aware, and fully anti-aliased. It looks and responds like a native, premium application.
 
 ## ⚙️ Open-Source Backbone Integration
 
-To handle edge-case protocol bypassing and hardware-accelerated media processing, Nyxor securely interfaces with industry-standard open-source utilities in the background:
-* **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Leveraged for state-of-the-art protocol bypassing, handling dynamic cookies, custom headers, and live stream metadata extraction.
-* **[FFmpeg](https://ffmpeg.org/):** Utilized as the core backend component for high-speed A/V muxing and media stream conversion.
+To maintain dominance over edge-case protocol updates and hardware-accelerated processing, Nyxor securely interfaces with heavily customized open-source utilities:
+* **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Leveraged as an underlying dependency for handling dynamic cookie injection, rotating custom headers, and aggressive metadata extraction.
+* **[FFmpeg](https://ffmpeg.org/):** Utilized as the backend engine for high-speed A/V muxing and raw stream compilation.
+
+## 🔑 Activation & Getting Started
+
+To initialize the local environment and bypass restrictions, launch the application and click **"Start Free Trial"**. This standard procedure authenticates the session and immediately unlocks the high-concurrency extraction engine.
 
 ---
 
 ## 🔗 Connect & Support
 
-Nyxor is an actively maintained, closed-source project. For binary updates, feature requests, or bug reports, reach out through our official channels:
+Nyxor is an actively maintained, closed-source project. For binary updates, feature requests, or technical reports, reach out through our official channels:
 
 * 🌐 **Official Website:** [nyxorlabs.com](https://nyxorlabs.com)
 * 💬 **Telegram Community:** [Nyxor Global](https://t.me/nyxorglobal)
