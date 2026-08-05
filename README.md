@@ -1,70 +1,50 @@
-# Nyxor Download Manager (Nyxor DM)
+# Nyxor Download Manager 
 
 ![Version](https://img.shields.io/badge/Version-v1.2.0.0-0080FF?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows_10%20%7C%2011-121212?style=for-the-badge)
-![Architecture](https://img.shields.io/badge/Core-.NET%20%2B%20Rust-E65100?style=for-the-badge)
-![UI](https://img.shields.io/badge/UI-Custom_GDI%2B_Fluent-1E1E1E?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-121212?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Architecture-x64%20Only-8B0000?style=for-the-badge)
+![Core](https://img.shields.io/badge/Core-.NET%20%2B%20Rust-E65100?style=for-the-badge)
+![UI](https://img.shields.io/badge/UI-Custom%20GDI%2B-1E1E1E?style=for-the-badge)
 
-**Nyxor Download Manager** is an advanced, high-performance desktop download executive engineered for speed, absolute stability, and seamless multi-platform media extraction. Combining the rapid prototyping and ecosystem strength of **.NET** with low-level execution modules powered by **Rust**, Nyxor delivers unmatched acceleration without system bloat.
+**Nyxor Download Manager** is a high-concurrency desktop executive engineered to push network bandwidth to its absolute limits. Built on a hybrid **.NET and Rust** architecture, Nyxor discards legacy download mechanics in favor of aggressive multi-threading, dynamic segmentation, and deep browser integration. 
 
----
-
-## 🚀 Key Architectural Highlights
-
-### ⚡ Hybrid Performance Engine (.NET + Rust)
-* **High-Concurrency Core:** Utilizes asynchronous multi-threading and dynamic segmentation to maximize network bandwidth saturation.
-* **Rust-Powered Subsystems:** Critical intensive operations and network packet handling are offloaded to high-efficiency, memory-safe Rust modules for minimum latency.
-
-### 🎨 Pure Custom GDI+ Fluent-Dark Interface
-* **Zero Native WinForms Clutter:** Custom-crafted rendering engine built from the ground up using **GDI+**.
-* **Executive Aesthetics:** Adheres to a strict 8/16px spatial grid, bespoke anti-aliased typography, precision 8px rounded borders, and subtle inner-glow surfacing (`#121212` base / `#1E1E1E` surface).
-* **Flicker-Free Experience:** Full double-buffered graphics rendering ensuring silky-smooth visual feedback even under heavy I/O loads.
-
-### 🌐 Native Browser Integration (Manifest V3)
-* Includes a cutting-edge **JavaScript Manifest V3** browser extension that intercepts downloads, sniffs complex media streams, and communicates directly with the desktop client via secure native messaging.
+This is not just another downloader; it is a precision tool built for power users who demand speed, stability, and unrestricted media extraction.
 
 ---
 
-## ✨ Core Capabilities
+## ⚡ Under the Hood: Pure Performance
 
-* **Multi-Segment Download Acceleration:** Dynamically splits files into parallel streams with automated connection recovery and link-refresh logic.
-* **Advanced Media Capture:** Direct extraction of video and audio streams from complex web platforms, DASH, and M3U8/HLS playlists.
-* **Enterprise Error Resilience:** Built-in deep diagnostic logging, intelligent retries, and automatic SSL/TLS handshake recovery.
-* **Smart Queue & Scheduling:** Automated categorization, speed throttling, and background execution management.
+Nyxor is strictly compiled for **64-bit (x64)** systems. By removing 32-bit memory constraints, the engine effortlessly handles massive multi-gigabyte file streams and CPU-intensive media processing without breaking a sweat.
 
----
+* **Hybrid Engine (.NET + Rust):** Combines the rapid deployment of .NET with the memory-safe, low-latency execution of Rust for network packet handling and heavy I/O operations.
+* **Aggressive Concurrency:** Dynamically splits files into parallel streams with automated connection recovery, ensuring zero data loss during network drops.
+* **Manifest V3 Native Integration:** Ships with a lightweight, highly secure JavaScript Manifest V3 browser extension. It intercepts downloads, sniffs complex media streams, and communicates directly with the desktop client via secure native messaging.
 
-## 📦 How to Install & Update
+## 🎨 Zero WinForms Clutter: The GDI+ Fluent Dark UI
 
-1. Navigate to the [Releases Page](../../releases) of this repository.
-2. Download the latest release asset: `NyxorDM_v1.2.0.0_Setup.zip` (or `.exe`).
-3. Run the installer.
-4. Future updates can be fetched directly through the application's built-in updater or by checking this repository for new releases.
+We threw out the default Windows controls. Nyxor’s interface is a masterclass in custom UI engineering, drawn entirely from scratch using a highly optimized, double-buffered **GDI+** rendering engine.
 
-> **Note:** This repository serves as the official **Distribution & Issue Tracker** for Nyxor Download Manager. The core application is closed-source.
+* **Executive Aesthetics:** Built on a strict 8/16px spatial grid ensuring perfect proportion.
+* **Fluent Dark Identity:** Features a rich `#121212` base layered with `#1E1E1E` surfaces, accented by precision 8px rounded corners and a subtle 1px inner-glow.
+* **Silky Smooth:** 100% flicker-free, high-DPI aware, and fully anti-aliased typography that feels native, responsive, and incredibly premium.
 
----
+## ⚙️ Advanced Media Acquisition
 
-## ⚖️ Third-Party Software & Acknowledgements
+Nyxor handles standard files with ease, but its true power lies in direct extraction of video and audio streams from complex web platforms, DASH, and M3U8/HLS playlists. 
 
-Nyxor Download Manager integrates with and utilizes highly respected industry-standard open-source tools to assist in complex media demuxing, stream processing, and extraction tasks:
-* **[FFmpeg](https://ffmpeg.org/):** Used under the LGPL/GPL license for high-speed audio/video multiplexing and stream transcoding.
-* **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Utilized for parsing, resolving, and extracting structured media formats across diverse platforms.
-
-*All third-party trademarks, binaries, and copyrights remain the property of their respective owners.*
+To achieve seamless media muxing and protocol bypassing, Nyxor proudly integrates the following open-source backbone utilities in its background processes:
+* **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Leveraged for state-of-the-art protocol bypassing, handling dynamic cookies, custom headers, and stream metadata extraction.
+* **[FFmpeg](https://ffmpeg.org/):** The industry standard, utilized as our core backend component for high-speed A/V muxing and post-download processing.
 
 ---
 
-## 💬 Community, Support & Feedback
+## 🔗 Connect & Support
 
-We actively welcome user feedback, bug reports, and feature suggestions to continuously evolve Nyxor into the definitive Windows download manager.
+Nyxor is an actively maintained, closed-source project. For updates, feature requests, bug reports, or just to hang out with the community, reach out through our official channels:
 
-* **🌐 Official Website:** [nyxorlabs.com](https://nyxorlabs.com)
-* **📢 Telegram Community & Feedback:** [t.me/nyxorglobal](https://t.me/nyxorglobal) *(Join us to share ideas, report bugs, or suggest enhancements)*
-* **📧 Direct Inquiries:** [nyxorlabs@gmail.com](mailto:nyxorlabs@gmail.com)
+* 🌐 **Official Website:** [nyxorlabs.com](https://nyxorlabs.com)
+* 💬 **Telegram Community:** [Nyxor Global](https://t.me/nyxorglobal)
+* 📧 **Direct Contact:** [nyxorlabs@gmail.com](mailto:nyxorlabs@gmail.com)
 
 ---
-<p align="center">
-  <b>Developed by NyxorLabs</b><br>
-  <i>Engineering Excellence in Desktop Architecture</i>
-</p>
+*Architected and developed by **Osama Ghalib (UacoderSA)** | NyxorLabs.*
