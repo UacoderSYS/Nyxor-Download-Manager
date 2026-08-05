@@ -53,4 +53,4 @@ Nyxor is an actively maintained, closed-source project. For binary updates, feat
 * 📧 **Direct Contact:** [nyxorlabs@gmail.com](mailto:nyxorlabs@gmail.com)
 
 ---
-*Architected and developed by **Osama Ghalib (UacoderSA)** | NyxorLabs.*
+*Architected and developed by **Uacoder** | NyxorLabs.*
