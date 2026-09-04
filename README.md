@@ -1,6 +1,6 @@
 # Nyxor Download Manager 
 
-![Version](https://img.shields.io/badge/Version-v1.2.0.0-0080FF?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-v1.3.0.0-0080FF?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-121212?style=for-the-badge)
 ![Architecture](https://img.shields.io/badge/Architecture-x64%20Only-8B0000?style=for-the-badge)
 ![Core](https://img.shields.io/badge/Core-.NET%20%2B%20Rust-E65100?style=for-the-badge)
