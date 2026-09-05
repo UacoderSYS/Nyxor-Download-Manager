@@ -74,7 +74,8 @@ Designed for creators, archiving enthusiasts, and power users who need reliable 
 <div align="center">
 
 ### 1. Main Workspace & Transfer Center
-<img width="1095" height="615" alt="1" src="https://github.com/user-attachments/assets/03a5ba6e-0c85-408f-aadf-97b93377f961" />
+<img width="1095" height="615" alt="image" src="https://github.com/user-attachments/assets/34dec683-3df0-4188-a493-00057d044866" />
+
 
 ### 2. Multi-Segment Visualizer & Live Monitor
 <img width="600" height="665" alt="2" src="https://github.com/user-attachments/assets/999ada56-1684-4389-9b60-dc51ffd82d24" />
