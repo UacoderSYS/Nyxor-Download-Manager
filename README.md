@@ -2,7 +2,7 @@
 
 # Nyxor Download Manager
 
-**High-Throughput Acceleration Engine & Advanced Media Ingestion Client**
+**High-Throughput Network Engine & Low-Latency Media Ingestion Platform**
 
 [![Release](https://img.shields.io/badge/Release-v1.3.0.0-00C6FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-121212?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.com)
@@ -16,6 +16,7 @@
   <a href="#-screenshots">Screenshots</a> •
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-browser-integration">Browser Extension</a> •
+  <a href="#-optional-plugins--auxiliary-tools">Auxiliary Tools</a> •
   <a href="#-community--support">Community</a>
 </p>
 
@@ -73,8 +74,7 @@ Designed for creators, archiving enthusiasts, and power users who need reliable 
 <div align="center">
 
 ### 1. Main Workspace & Transfer Center
-<img width="1095" height="615" alt="image" src="https://github.com/user-attachments/assets/2c595815-e211-4b55-82c8-c0d127c2a4eb" />
-
+<img width="1095" height="615" alt="1" src="https://github.com/user-attachments/assets/03a5ba6e-0c85-408f-aadf-97b93377f961" />
 
 ### 2. Multi-Segment Visualizer & Live Monitor
 <img width="600" height="665" alt="2" src="https://github.com/user-attachments/assets/999ada56-1684-4389-9b60-dc51ffd82d24" />
@@ -104,10 +104,21 @@ Nyxor works alongside an official companion extension for **Microsoft Edge** and
 
 * **One-Click Capture:** Captures download dialogs, streaming media, and embedded files across web pages.
 * **Pre-Download Caching:** Gathers file metadata the moment you interact with a link for immediate downloads.
-* **Local Isolation:** Operates strictly on your local machine with zero external telemetry or browsing data tracking.
+* **Local Isolation:** Operates strictly on your local machine with zero external network traffic or browsing telemetry.
 
 > [!TIP]
 > Open **Settings -> Add-ons** inside Nyxor to install the companion extension directly into your browser.
+
+---
+
+## 🧩 Optional Plugins & Auxiliary Tools
+
+While **Nyxor Download Manager** relies entirely on its **proprietary native engine (.NET & Rust Core)** for all network streaming, multi-segmented TCP routing (up to 128+ threads), zero-copy kernel disk commits, and direct downloads, it delegates certain dynamic web scraping tasks to auxiliary tools:
+
+* **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Integrated solely as an optional upstream resolver plugin for parsing dynamic tokens and manifest URLs from social media platforms. *(The actual multi-part network ingestion and chunk assembling remain 100% handled by Nyxor's internal engine).*
+* **[FFmpeg](https://ffmpeg.org/):** Utilized strictly as a secondary post-muxing utility when compiling detached adaptive audio/video DASH streams.
+
+*Nyxor is an independent standalone download executive and is not affiliated with or a simple GUI wrapper for these third-party utilities.*
 
 ---
 
