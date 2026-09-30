@@ -99,28 +99,28 @@ Designed for creators, software engineers, and power users demanding uncompromis
 ### 1. Main Workspace & Completion Center
 *Custom double-buffered GDI+ workspace with live category sorting and high-fidelity completion dialog.*
 <br/>
-<img width="1095" height="615" alt="2" src="https://github.com/user-attachments/assets/f066a5c3-7ff2-47c0-897b-2d6212ae9482" />
+<img width="1095" height="615" alt="Main Workspace & Completion Center" src="https://github.com/user-attachments/assets/f066a5c3-7ff2-47c0-897b-2d6212ae9482" />
 
 <br/><br/>
 
 ### 2. Multi-Segment Live Monitor & Speed Limiter
 *Real-time socket inspection, adaptive bandwidth saturation, and granular chunk progress tracking.*
 <br/>
-<img width="600" height="665" alt="4" src="https://github.com/user-attachments/assets/eb5008ed-92b5-45d5-96b5-7ea7cbc58f7c" />
+<img width="600" height="665" alt="Multi-Segment Live Monitor" src="https://github.com/user-attachments/assets/eb5008ed-92b5-45d5-96b5-7ea7cbc58f7c" />
 
 <br/><br/>
 
 ### 3. Advanced Media Grabber & Stream Ingestion
 *Deep media parser supporting direct 4K UHD (60fps), 2K Quad HD, and high-bitrate adaptive DASH streams.*
 <br/>
-<img width="640" height="520" alt="1" src="https://github.com/user-attachments/assets/c3df4a84-1215-40c2-a6b3-6b261ddbf307" />
+<img width="640" height="520" alt="Media Grabber Dialog" src="https://github.com/user-attachments/assets/c3df4a84-1215-40c2-a6b3-6b261ddbf307" />
 
 <br/><br/>
 
 ### 4. Modern Fluent Notification Toast
 *Minimalist desktop alert cards featuring clean typography, status glows, and smooth dismiss animations.*
 <br/>
-<img width="390" height="96" alt="3" src="https://github.com/user-attachments/assets/d2cde3a3-0bb2-47be-b12e-54695321ec07" />
+<img width="390" height="96" alt="Fluent Notification Toast" src="https://github.com/user-attachments/assets/d2cde3a3-0bb2-47be-b12e-54695321ec07" />
 
 </div>
 
@@ -137,7 +137,7 @@ Nyxor pairs seamlessly with an official browser companion extension for **Micros
 * **Local Isolation:** Operates strictly on your local machine (`127.0.0.1`) with zero external network traffic or browsing telemetry.
 
 > [!TIP]
-> Open **Settings (<kbd>⚙️</kbd>) -> Add-ons** inside Nyxor to install the companion extension directly into your browser.
+> Click **Add-ons** on the main application toolbar, then select either **Google Chrome** or **Microsoft Edge** to install and integrate the companion extension instantly.
 
 ---
 
@@ -174,7 +174,7 @@ Nyxor pairs seamlessly with an official browser companion extension for **Micros
 
 While **Nyxor Download Manager** relies entirely on its **proprietary native engine (.NET & Rust Core)** for all network streaming, multi-segmented TCP routing (up to 128+ threads), zero-copy kernel disk commits, and direct downloads, it delegates certain dynamic web scraping tasks to auxiliary tools:
 
-* **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Integrated solely as an optional upstream resolver plugin for parsing dynamic tokens and manifest URLs from social media platforms. *(The actual multi-part network ingestion and chunk assembling remain 100% handled by Nyxor's internal engine).*
+* **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Integrated strictly as an optional upstream manifest resolver exclusively for **YouTube** and a select group of supported media portals to parse dynamic stream manifests and tokens. *(All standard downloads, direct web links, and the actual multi-part network ingestion and chunk assembling remain 100% handled by Nyxor's internal engine).*
 * **[FFmpeg](https://ffmpeg.org/):** Utilized strictly as a secondary post-muxing utility when compiling detached adaptive audio/video DASH streams.
 
 *Nyxor is an independent standalone download executive and is not affiliated with or a simple GUI wrapper for these third-party utilities.*
