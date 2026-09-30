@@ -96,11 +96,31 @@ Designed for creators, software engineers, and power users demanding uncompromis
 
 <div align="center">
 
-### 1. Main Workspace & Transfer Center
-<img width="1095" height="615" alt="Main Workspace" src="https://github.com/user-attachments/assets/76958791-f204-470c-8294-21ca4b6b0ef0" />
+### 1. Main Workspace & Completion Center
+*Custom double-buffered GDI+ workspace with live category sorting and high-fidelity completion dialog.*
+<br/>
+<img width="1095" height="615" alt="2" src="https://github.com/user-attachments/assets/f066a5c3-7ff2-47c0-897b-2d6212ae9482" />
 
-### 2. Multi-Segment Visualizer & Live Monitor
-<img width="600" height="665" alt="Multi-Segment Visualizer" src="https://github.com/user-attachments/assets/999ada56-1684-4389-9b60-dc51ffd82d24" />
+<br/><br/>
+
+### 2. Multi-Segment Live Monitor & Speed Limiter
+*Real-time socket inspection, adaptive bandwidth saturation, and granular chunk progress tracking.*
+<br/>
+<img width="600" height="665" alt="4" src="https://github.com/user-attachments/assets/eb5008ed-92b5-45d5-96b5-7ea7cbc58f7c" />
+
+<br/><br/>
+
+### 3. Advanced Media Grabber & Stream Ingestion
+*Deep media parser supporting direct 4K UHD (60fps), 2K Quad HD, and high-bitrate adaptive DASH streams.*
+<br/>
+<img width="640" height="520" alt="1" src="https://github.com/user-attachments/assets/c3df4a84-1215-40c2-a6b3-6b261ddbf307" />
+
+<br/><br/>
+
+### 4. Modern Fluent Notification Toast
+*Minimalist desktop alert cards featuring clean typography, status glows, and smooth dismiss animations.*
+<br/>
+<img width="390" height="96" alt="3" src="https://github.com/user-attachments/assets/d2cde3a3-0bb2-47be-b12e-54695321ec07" />
 
 </div>
 
