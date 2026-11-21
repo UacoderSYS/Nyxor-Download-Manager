@@ -36,38 +36,15 @@ Instead of relying on a single browser connection or juggling separate tools for
 ## 🏗️ Architecture
 
 ```mermaid
-flowchart LR
-    subgraph Input["1. Ingestion Layer"]
-        A1["🌐 Browser HUD (127.0.0.1)"]
-        A2["🔗 HTTP / HTTPS & Site Grabber"]
-        A3["🧲 BitTorrent & Magnet P2P"]
-        A4["🎥 4K/8K Media & Live DVR"]
-    end
+graph LR
+    A["🌐 Capture Layer<br/>Browser HUD • HTTP/S<br/>BitTorrent • 4K/8K DVR"] --> B["⚡ Hybrid Core<br/>.NET 4.8 + Rust Engine<br/>Up to 128 Adaptive Streams"]
+    B --> C["🛡️ Crash-Safe Assembler<br/>Strict Range Validation<br/>Disk-Aware Staging"]
+    C --> D["📡 Studio & LAN Warp<br/>10-Format GPU Converter<br/>Wi-Fi QR & Global Tunnel"]
 
-    subgraph Engine["2. Hybrid Core (.NET 4.8 + Rust)"]
-        B1["⚡ Adaptive Multi-Segment Engine<br/>Up to 128 Parallel Streams"]
-        B2["🛡️ Strict HTTP 206/416 Guard<br/>& DASH Segment Rollback"]
-        B3["🦀 Native Rust Core<br/>High-Speed I/O & Asset Scanner"]
-    end
-
-    subgraph Output["3. Assembly, Studio & Sharing"]
-        C1["💾 Disk-Aware Crash-Safe<br/>File Assembler"]
-        C2["🎛️ Nyxor Media Studio<br/>10-Format GPU Converter"]
-        C3["📡 Nyxor LAN Warp<br/>Wi-Fi QR & Global Tunnel"]
-    end
-
-    Input --> Engine --> Output
-
-    style A1 fill:#111625,stroke:#38BDF8,stroke-width:1.4px,color:#F8FAFC
-    style A2 fill:#111625,stroke:#38BDF8,stroke-width:1.4px,color:#F8FAFC
-    style A3 fill:#111625,stroke:#38BDF8,stroke-width:1.4px,color:#F8FAFC
-    style A4 fill:#111625,stroke:#38BDF8,stroke-width:1.4px,color:#F8FAFC
-    style B1 fill:#161B2E,stroke:#2563EB,stroke-width:1.6px,color:#F8FAFC
-    style B2 fill:#161B2E,stroke:#2563EB,stroke-width:1.6px,color:#F8FAFC
-    style B3 fill:#161B2E,stroke:#E65100,stroke-width:1.6px,color:#F8FAFC
-    style C1 fill:#111D1B,stroke:#10B981,stroke-width:1.5px,color:#F8FAFC
-    style C2 fill:#111D1B,stroke:#10B981,stroke-width:1.5px,color:#F8FAFC
-    style C3 fill:#111D1B,stroke:#10B981,stroke-width:1.5px,color:#F8FAFC
+    style A fill:#111625,stroke:#38BDF8,stroke-width:1.6px,color:#F8FAFC
+    style B fill:#161B2E,stroke:#2563EB,stroke-width:1.6px,color:#F8FAFC
+    style C fill:#141E28,stroke:#F59E0B,stroke-width:1.6px,color:#F8FAFC
+    style D fill:#111D1B,stroke:#10B981,stroke-width:1.6px,color:#F8FAFC
 ```
 
 ---
