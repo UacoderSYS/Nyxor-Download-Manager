@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/UacoderSYS/Nyxor-Download-Manager/releases/latest"><img alt="Download the latest release" src="https://img.shields.io/badge/Download-Latest%20release-2459C4?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
   <a href="#get-started"><img alt="Windows 10 and 11, 64-bit" src="https://img.shields.io/badge/Windows-10%20%26%2011%20x64-334155?style=for-the-badge"></a>
-  <a href="#architecture"><img alt=".NET Framework and Rust architecture" src="https://img.shields.io/badge/Core-.NET%20%2B%20Rust-24476A?style=for-the-badge&amp;logo=rust&amp;logoColor=white"></a>
+  <a href="#architecture"><img alt=".NET Framework 4.8.1 and Rust architecture" src="https://img.shields.io/badge/Core-.NET%204.8.1%20%2B%20Rust-24476A?style=for-the-badge&amp;logo=rust&amp;logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ If a connection drops halfway through a large file, Nyxor remembers which parts 
 
 ## 🧩 Inside the download engine
 
-The **VB.NET desktop app** runs on .NET Framework 4.8. Its custom GDI+ interface displays the queue, settings, and live progress. A native Rust library, **`nyxor_core.dll`**, handles segmented HTTP and HTTPS transfers and BitTorrent networking.
+The **VB.NET desktop app** runs on .NET Framework 4.8.1. Its custom GDI+ interface displays the queue, settings, and live progress. A native Rust library, **`nyxor_core.dll`**, handles segmented HTTP and HTTPS transfers and BitTorrent networking.
 
 The browser extension sends a link to the desktop app over a local connection. From the same queue, Nyxor can start a transfer through its Rust core or use the media tools to find tracks and process a recording.
 
@@ -56,7 +56,11 @@ flowchart TD
 
 ## 🎬 Media Grabber and live DVR
 
-Paste a video or playlist link into **Media Grabber** to see the picture and audio tracks the source actually offers. For a dubbed video, you can select the original soundtrack or an available language such as Arabic. Video quality goes up to 8K at 60 fps on sources that provide it.
+Paste a video or playlist link into **Media Grabber** and choose a quality. Nyxor supports up to 8K at 60 fps when the source offers it.
+
+**YouTube downloads.** Nyxor’s built-in engine downloads YouTube videos directly with the default audio track. No `yt-dlp` installation is needed for these downloads.
+
+**Dubbed audio.** To download a YouTube video in another language, first download [yt-dlp](https://github.com/yt-dlp/yt-dlp) from **Settings** in Nyxor. Then open the video in **Media Grabber** and select an available audio language before starting the download. For example, Arabic appears as an option when the video includes an Arabic dub.
 
 [![Media Grabber showing the quality and audio track selectors](https://github.com/user-attachments/assets/2c5b519c-b80d-453a-a196-ed5218e8086e)](https://github.com/user-attachments/assets/2c5b519c-b80d-453a-a196-ed5218e8086e)
 
@@ -64,7 +68,7 @@ Paste a video or playlist link into **Media Grabber** to see the picture and aud
 
 **Expiring links.** Some services give a media URL a short lifetime. When it expires mid-transfer, **Auto-Healing** tries to obtain a fresh URL for the same media and continue from the saved position. Some sources require you to renew the link manually.
 
-**Media tools.** Nyxor can use [yt-dlp](https://github.com/yt-dlp/yt-dlp) to resolve a manifest or find audio tracks. When audio and video arrive separately, [FFmpeg](https://ffmpeg.org/) can combine compatible tracks without re-encoding them. Media Studio also uses FFmpeg for conversions.
+**Media processing.** When audio and video arrive separately, [FFmpeg](https://ffmpeg.org/) can combine compatible tracks without re-encoding them. Media Studio also uses FFmpeg for conversions.
 
 <a name="torrents"></a>
 
@@ -107,7 +111,7 @@ Export to MP4, MKV, WebM, MOV, AVI, GIF, MP3, M4A, WAV, or FLAC. Compatible enco
 ## 📥 Get started
 
 1. Open the [latest release](https://github.com/UacoderSYS/Nyxor-Download-Manager/releases/latest) and download `NyxorDM.exe` from **Assets**.
-2. Launch Nyxor on Windows 10 or 11 (64-bit) with .NET Framework 4.8 or newer.
+2. Launch Nyxor on Windows 10 or 11 (64-bit) with .NET Framework 4.8.1 installed.
 3. Press **Ctrl+N** to add a download link, or **Ctrl+B** to add several at once.
 
 **Trial and license.** Try the full app for 14 days without a credit card. A lifetime license is a one-time $15 purchase.
