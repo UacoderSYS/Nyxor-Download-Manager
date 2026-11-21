@@ -120,25 +120,19 @@ graph LR
 
 *Double-buffered GDI+ workspace with automatic category routing and interactive completion cards.*
 
-<img width="1095" height="615" alt="Main Workspace &amp; Completion Center" src="https://github.com/user-attachments/assets/f066a5c3-7ff2-47c0-897b-2d6212ae9482" />
+<img width="1340" height="756" alt="1" src="https://github.com/user-attachments/assets/63913aa4-91e1-47db-8723-95221073a098" />
 
 ### 2. Multi-Segment Live Monitor & Speed Limiter
 
 *Real-time socket telemetry, adaptive connection scaling, and per-chunk progress tracking.*
 
-<img width="600" height="665" alt="Multi-Segment Live Monitor" src="https://github.com/user-attachments/assets/eb5008ed-92b5-45d5-96b5-7ea7cbc58f7c" />
+<img width="1340" height="756" alt="3" src="https://github.com/user-attachments/assets/a6d8e414-7df7-4237-954b-31d1f18492b4" />
 
 ### 3. Media Grabber & Quality Selector
 
 *4K/8K DASH stream parser with multi-language audio selection and instant metadata caching.*
 
-<img width="640" height="520" alt="Media Grabber Dialog" src="https://github.com/user-attachments/assets/c3df4a84-1215-40c2-a6b3-6b261ddbf307" />
-
-### 4. Desktop Notification Toast
-
-*Clean completion alerts with quick folder and file launch actions.*
-
-<img width="390" height="96" alt="Fluent Notification Toast" src="https://github.com/user-attachments/assets/d2cde3a3-0bb2-47be-b12e-54695321ec07" />
+<img width="1340" height="756" alt="2" src="https://github.com/user-attachments/assets/2c5b519c-b80d-453a-a196-ed5218e8086e" />
 
 </div>
 
